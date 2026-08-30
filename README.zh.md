@@ -1,6 +1,4 @@
-# 
-
-DeepSeek Harness 工具：**${tool}** — 
+# dsh-wsl-editor
 
 DeepSeek Harness 工具：**`win_editor`** — 在 Windows IDE 中打开 Linux 路径（Cursor/VS Code/Notepad）。
 
@@ -28,9 +26,9 @@ dsh plugin --profile web add github:173787247/dsh-wsl-editor
 - id: dsh-wsl-editor
   name: dsh-wsl-editor
   config:
-        timeoutMs: 15000
-        defaultEditor: cursor
-        allowlist: [cursor, code, code-insiders, notepad.exe]
+    timeoutMs: 15000
+    defaultEditor: cursor
+    allowlist: [cursor, code, code-insiders, notepad.exe]
 ```
 
 | 键 | 默认 | 含义 |

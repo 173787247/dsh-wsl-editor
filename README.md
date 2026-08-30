@@ -1,8 +1,6 @@
-# 
+# dsh-wsl-editor
 
-DeepSeek Harness tool: **${tool}** — 
-
-DeepSeek Harness tool: **`win_editor`** — DeepSeek Harness tool: open a Linux path in a Windows IDE (Cursor/VS Code/Notepad).
+DeepSeek Harness tool: **`win_editor`** — open a Linux path in a Windows IDE (Cursor/VS Code/Notepad).
 
 Part of **[dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit)**.
 
@@ -28,9 +26,9 @@ Restart `dsh web`. New session → Tools should list `win_editor`.
 - id: dsh-wsl-editor
   name: dsh-wsl-editor
   config:
-        timeoutMs: 15000
-        defaultEditor: cursor
-        allowlist: [cursor, code, code-insiders, notepad.exe]
+    timeoutMs: 15000
+    defaultEditor: cursor
+    allowlist: [cursor, code, code-insiders, notepad.exe]
 ```
 
 | Key | Default | Meaning |
