@@ -1,4 +1,6 @@
-# dsh-wsl-editor
+# 
+
+DeepSeek Harness tool: **${tool}** — 
 
 DeepSeek Harness tool: **`win_editor`** — DeepSeek Harness tool: open a Linux path in a Windows IDE (Cursor/VS Code/Notepad).
 

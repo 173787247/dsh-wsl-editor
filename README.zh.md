@@ -1,4 +1,6 @@
-# dsh-wsl-editor
+# 
+
+DeepSeek Harness 工具：**${tool}** — 
 
 DeepSeek Harness 工具：**`win_editor`** — 在 Windows IDE 中打开 Linux 路径（Cursor/VS Code/Notepad）。
 
