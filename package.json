@@ -1,0 +1,43 @@
+{
+  "name": "dsh-wsl-editor",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness tool: open a Linux path in a Windows IDE (Cursor/VS Code/Notepad).",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/173787247/dsh-wsl-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/173787247/dsh-wsl-editor/issues"
+  },
+  "homepage": "https://github.com/173787247/dsh-wsl-editor#readme",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/editor.test.js"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "wsl",
+    "editor",
+    "cursor",
+    "vscode"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
