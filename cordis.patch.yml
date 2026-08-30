@@ -1,0 +1,7 @@
+- insert:
+    - id: dsh-wsl-editor
+      name: dsh-wsl-editor
+      config:
+        timeoutMs: 15000
+        defaultEditor: cursor
+        allowlist: [cursor, code, code-insiders, notepad.exe]
