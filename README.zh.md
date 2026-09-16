@@ -8,6 +8,18 @@ DeepSeek Harness 插件：用 Windows 的 Cursor / VS Code / 记事本打开 WSL
 
 [English → README.md](./README.md)
 
+## 在套件里的位置
+
+用 Windows 上的 Cursor、VS Code 或记事本打开一个 Linux 路径。
+
+```mermaid
+flowchart LR
+  agent["dsh agent"] --> tool["win_editor"] --> win["Cursor / VS Code / 记事本"]
+```
+
+整套关系图和版本快照：[dsh-wsl-kit 中文说明](https://github.com/173787247/dsh-wsl-kit/blob/master/README.zh.md)。本插件是 **0.1.0**（full）。不要把那份总表抄进本 README。
+
+
 ## 兼容性
 
 | 项 | 值 |
