@@ -1,6 +1,6 @@
 {
   "name": "dsh-wsl-editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Open a WSL Linux path in Windows Cursor/VS Code/Notepad.",
   "license": "MIT",
   "repository": {

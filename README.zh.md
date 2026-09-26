@@ -17,14 +17,14 @@ flowchart LR
   agent["dsh agent"] --> tool["win_editor"] --> win["Cursor / VS Code / 记事本"]
 ```
 
-整套关系图和版本快照：[dsh-wsl-kit 中文说明](https://github.com/173787247/dsh-wsl-kit/blob/master/README.zh.md)。本插件是 **0.1.0**（full）。不要把那份总表抄进本 README。
+整套关系图和版本快照：[dsh-wsl-kit 中文说明](https://github.com/173787247/dsh-wsl-kit/blob/master/README.zh.md)。本插件是 **0.1.1**（full）。不要把那份总表抄进本 README。
 
 
 ## 兼容性
 
 | 项 | 值 |
 |----|----|
-| **插件** | `dsh-wsl-editor` **0.1.0** |
+| **插件** | `dsh-wsl-editor` **0.1.1** |
 | **最低 dsh** | ≥ **0.1.2**（Windows 中继 `:3081` 一次性 `?token=`） |
 | **最新验证** | 以 [dsh-wsl-kit 兼容性](https://github.com/173787247/dsh-wsl-kit#compatibility-2026-09) 为准（当前 **`0.1.7-alpha.2`**）— 套件唯一真源 |
 | **套件档位** | `full` 或单独安装 |
@@ -39,7 +39,12 @@ flowchart LR
 dsh plugin --profile web add github:173787247/dsh-wsl-editor
 ```
 
-重启 `dsh web` 并开**新**会话。工具名：`win_editor`。
+重启 `dsh web` 并开**新**会话。工具：`win_editor`、`win_editor_status`。
+
+| 工具 | 参数 | 说明 |
+|------|------|------|
+| `win_editor` | `path`，可选 `editor`、`line`、`column` | Cursor/Code 用 `-g file:line:column`；记事本忽略行列 |
+| `win_editor_status` | （无） | 探测 Windows PATH 上是否有 cursor / code / notepad |
 
 ## 许可
 
